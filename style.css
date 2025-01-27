@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(39, 36, 36, 0.982);
+  height: 100vh;
+  font-family:'Courier New', Courier, monospace, serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+}
+
+button {
+  color: rgb(84, 75, 75);
+  font-weight: bold;
+  font-size: 40px;
+  cursor: pointer;
+  width: 65px;
+  height: 60px;
+  box-shadow: 2px 2px 1px black;
+  border-radius: 10px;
+  border: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.theBoxCalculator {
+  background-color: rgba(55, 59, 59, 0.485);
+  display: flex;
+  position: absolute;
+  height: 600px;
+  width: 1000px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.output {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.output input {
+  background-color: white;
+  width: 100%;
+  cursor: text;
+  border: none;
+  outline: none;
+  font-size: 100px;
+  border-radius: 10px;
+  resize: none; 
+  z-index: 1;
+}
+
+.input {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.number {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  gap: 3px;
+  margin-top: 350px;
+  margin-left: 650px;
+}
+
+.typeOfAddition {
+  display: grid;
+  grid-template-columns:repeat(3 1fr);
+  gap: 3px;
+}
