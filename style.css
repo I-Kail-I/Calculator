@@ -73,10 +73,12 @@ button {
   gap: 20px;
 }
 
-.buttonContaienr {
+.buttonContainer {
   display: flex;
   gap: 20px;
   width: 100%;
+  z-index: 1; 
+  justify-content: end;
 }
 
 
