@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const output = document.getElementById('output');
+    let output = document.getElementById('output');
     const buttons = document.querySelectorAll('.buttonContainer button');
   
     buttons.forEach(button => {
